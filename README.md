@@ -38,12 +38,17 @@ A sleek, modern web application for showcasing premium gaming equipment. Designe
 │   │   └── Header.jsx
 │   │   └── Main.jsx
 │   │   └── ProductItem.jsx
+│   │   └── ProductList.jsx
+│   │   └── SocialMediaIcon.jsx
 │   ├── 📁 constants/
 │   │   └── products.js
+│   ├── 📁 contexts/
+│   │   └── ViewContext.jsx
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   ├── index.css
+│   └── main.jsx
 ├── .gitignore
+├── .prettierrc
 ├── eslint.config.js
 ├── index.html
 ├── package-lock.json
