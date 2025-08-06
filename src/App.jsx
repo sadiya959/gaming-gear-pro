@@ -1,4 +1,4 @@
-import ProductList from "./components/ProductList";
+import Main from "./components/Main";
 
 function App() {
   return (
@@ -6,9 +6,7 @@ function App() {
       {/* navbar */}
 
       {/* main  */}
-      <main>
-        <ProductList />
-      </main>
+      <Main />
 
       {/* footer */}
     </>
