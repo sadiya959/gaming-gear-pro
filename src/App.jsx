@@ -1,15 +1,11 @@
-import Main from "./components/Main";
+
+import Header from "./components/Header";
 
 function App() {
   return (
-    <>
-      {/* navbar */}
-
-      {/* main  */}
-      <Main />
-
-      {/* footer */}
-    </>
+    <div className="min-h-screen transition-colors duration-300 dark:bg-gray-900">
+      <Header />
+    </div>
   );
 }
 
