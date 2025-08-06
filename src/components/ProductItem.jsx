@@ -1,7 +1,7 @@
 const ProductItem = ({ product,isGridView }) => {
   return (
     <div 
-    className={`bg-white shadow-md overflow-hidden  hover:shadow-lg cursor-pointer rounded-lg ${isGridView? "": "flex"}`}>
+    className={`bg-white dark:bg-gray-800 shadow-md overflow-hidden  hover:shadow-lg cursor-pointer rounded-lg ${isGridView? "": "flex"}`}>
       <div  className={`overflow-hidden ${
           isGridView ? "aspect-square" : "w-1/3"
         }`} >
@@ -17,7 +17,7 @@ const ProductItem = ({ product,isGridView }) => {
         <p className="text-blue-500 font-semibold text-lg md:text-xl">
           ${product.price}
         </p>
-        <p className="text-sm text-slate-600 ">{product.description}</p>
+        <p className="text-sm text-slate-600 dark:text-slate-300 ">{product.description}</p>
       </div>
     </div>
   );
