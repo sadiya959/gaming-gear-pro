@@ -1,18 +1,23 @@
-const ProductItem = ({ product }) => {
+const ProductItem = ({ product,isGridView }) => {
   return (
-    <div className="bg-white shadow-md rounded-lg">
-      <div>
+    <div 
+    className={`bg-white shadow-md overflow-hidden  hover:shadow-lg cursor-pointer rounded-lg ${isGridView? "": "flex"}`}>
+      <div  className={`overflow-hidden ${
+          isGridView ? "aspect-square" : "w-1/3"
+        }`} >
         <img
           src={product.image}
           alt={product.name}
-          className="rounded-lg w-full object-cover"
+          className="w-full object-cover hover:scale-110  scale-105 transition-transform ease-in-out duration-300"
         />
       </div>
 
-      <div className="p-4">
+      <div className="p-6 space-y-2">
         <h3 className="text-lg font-semibold">{product.name}</h3>
-        <p className="text-blue-400 font-bold">${product.price}</p>
-        <p className="text-sm text-slate-600 mt-1">{product.description}</p>
+        <p className="text-blue-500 font-semibold text-lg md:text-xl">
+          ${product.price}
+        </p>
+        <p className="text-sm text-slate-600 ">{product.description}</p>
       </div>
     </div>
   );
