@@ -61,7 +61,7 @@ A sleek, modern web application for showcasing premium gaming equipment. Designe
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/gaming-gear-pro.git
+git clone https://github.com/dugsiiyeinc/gaming-gear-pro.git
 cd gaming-gear-pro
 
 # Install dependencies
