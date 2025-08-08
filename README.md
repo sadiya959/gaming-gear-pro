@@ -2,6 +2,8 @@
 
 A sleek, modern web application for showcasing premium gaming equipment. Designed with performance and aesthetics in mind, this responsive UI is ideal for product listings, landing pages, or e-commerce templates.
 
+[live demo](https://github.com/sadiya959/Dugsiiye-react-exercises/tree/main/exercise-25)
+
 ![GamingGear Pro Light Mode Screenshot](/public/screenshot-light.png)
 
 ![GamingGear Pro Dark Mode Screenshot](/public/screenshot-dark.png)
